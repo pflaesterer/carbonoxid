@@ -1,0 +1,16 @@
+{
+    "name": "pflaesterer/carbonoxid",
+    "type": "oxideshop-module",
+    "license": "MIT",
+    "extra": {
+        "oxideshop": {
+            "target-directory": "pflaesterer/carbonoxid"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Pflaesterer\\CarbonOxid\\": "./"
+        }
+    }
+}
+
