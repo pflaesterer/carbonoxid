@@ -6,5 +6,5 @@
 $aLang = array(
     'charset'                                       => 'UTF-8',
     'SHOP_MODULE_GROUP_CARBONOXID_MAIL_ADDRESS_ES'  => 'Mail-Adresse(n)',
-    'SHOP_MODULE_CARBONOXID_MAIL_BCC1'              => 'BCC-Empfänger 1',
+    'SHOP_MODULE_CARBONOXID_MAIL_BCC1'              => 'BCC-Empfänger',
 );
