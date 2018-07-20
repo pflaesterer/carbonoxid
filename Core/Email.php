@@ -10,7 +10,7 @@ class Email extends Email_parent
 
         try
         {
-            parent::AddBCC($config->getConfigParam(), 'Shop-BCC');
+            parent::AddBCC($config->getConfigParam('carbonoxid_mail_bcc', \OxidEsales\Eshop\Core\Registry::getConfig()->getShopId(), 'module:carbonoxid'), 'Shop-BCC');
         }
         catch(Exception $e)
         {
