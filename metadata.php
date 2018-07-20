@@ -25,7 +25,8 @@ $aModule = array(
         \OxidEsales\Eshop\Core\Email::class => \Pflaesterer\CarbonOxid\Core\Email::class,
     ],
     'settings' => array(
-        array('group' => 'CARBONOXID_MAIL_ADDRESS_ES',  'name' => 'carbonoxid_mail_bcc',   'type' => 'str', 'value' => ''),
+        array('group' => 'CARBONOXID_MAIL_ADDRESS_ES',  'name' => 'carbonoxid_mail_bcc_email',  'type' => 'str', 'value' => 'johndoe@example.org'),
+        array('group' => 'CARBONOXID_MAIL_ADDRESS_ES',  'name' => 'carbonoxid_mail_bcc_name',   'type' => 'str', 'value' => 'John Doe'),
     ),
 );
 
