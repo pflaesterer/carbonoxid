@@ -20,5 +20,12 @@ $aModule = array(
     ),
     'version'      => '0.9.0',
     'author'       => 'Philip Pflästerer',
+
+    'extend'      => [
+        \OxidEsales\Eshop\Core\Email::class => \Pflaesterer\CarbonOxid\Core\Email::class,
+    ],
+    'settings' => array(
+        array('group' => 'CARBONOXID_MAIL_ADDRESS_ES',  'name' => 'CARBONOXID_MAIL_BCC1',   'type' => 'str', 'value' => ''),
+    ),
 );
 
