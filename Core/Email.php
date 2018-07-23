@@ -13,7 +13,7 @@ class Email extends Email_parent
         if(!filter_var($bcc, FILTER_VALIDATE_EMAIL))
         {
             // throw exception
-            $ox = oxNew(\OxidEsales\Eshop\Core\Exception\StandardException::class);
+            $ex = oxNew(\OxidEsales\Eshop\Core\Exception\StandardException::class);
             $ex->setMessage('Not a valid email-address.');
 
             if($this->isDebugModeEnabled())
