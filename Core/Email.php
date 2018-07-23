@@ -12,18 +12,9 @@ class Email extends Email_parent
 
         if(!filter_var($bcc, FILTER_VALIDATE_EMAIL))
         {
-            // throw exception
             $ex = oxNew(\OxidEsales\Eshop\Core\Exception\StandardException::class);
-            $ex->setMessage('Not a valid email-address.');
-
-            if($this->getConfig()->getConfigParam('iDebug') != 0)
-            {
-                $ex->debugOut();
-            }
-            else
-            {
-                throw $ex;
-            }
+            $ex->setMessage('Not a valid email-address. ('.get_class($this).')'. PHP_EOL);
+            throw $ex;
         }
         else
         {
