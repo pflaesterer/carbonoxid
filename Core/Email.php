@@ -16,13 +16,13 @@ class Email extends Email_parent
             $ex = oxNew(\OxidEsales\Eshop\Core\Exception\StandardException::class);
             $ex->setMessage('Not a valid email-address.');
 
-            if($this->isDebugModeEnabled())
+            if($this->getConfig()->getConfigParam('iDebug') != 0)
             {
-                throw $ex;
+                $ex->debugOut();
             }
             else
             {
-                $ex->debugOut();
+                throw $ex;
             }
         }
         else
