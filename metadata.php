@@ -18,7 +18,7 @@ $aModule = array(
         'en'=>'Adds a configurable BCC (blind carbon copy) to every email sent from shop.',
         'de'=>'Fügt eine konfigurierbare BCC (blind carbon copy) an jede vom Shop versante Email an.',
     ),
-    'version'      => '1.0.0',
+    'version'      => '1.0.1',
     'author'       => 'Philip Pflästerer',
 
     'extend'      => [
