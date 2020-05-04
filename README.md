@@ -3,6 +3,6 @@ Adds a configurable BCC (blind carbon copy) to every email sent from an OXID eSh
 
 For install type the following commands in the root-dir of the shop:
 
-`composer require --no-update NameDesZuInstallierendenModuls`
+`composer require --no-update carbonoxid`
 
 `composer update --no-dev`
