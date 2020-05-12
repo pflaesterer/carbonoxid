@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Pflaesterer\\CarbonOxid\\": "./"
+            "Pflaesterer\\CarbonOxid\\": "../../../source/modules/pflaesterer/carbonoxid"
         }
     }
 }
